@@ -1,0 +1,14 @@
+type Query {
+    allProjects:[Project]
+}
+
+type Project {
+    id: ID!
+    name : String
+    risks : [Risk]
+}
+
+type Risk {
+    id: ID!
+    name : String
+}
